@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    border: black solid 1px;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+}
+
+.columna-contactos {
+    flex-basis: 20%;
+    border: black solid 1px;
+    padding: 0px;
+}
+
+.columna-principal {
+    flex-basis: 65%;
+    text-align: center;
+    padding: 10%;
+}
+
+.circulo {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.texto {
+    margin: 1%;
+    font-size: large;
+    color: black;
+    padding: 2px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    padding: 1%;
+    border: rgb(80, 74, 74) solid 1px;
+}
+
+.iconos {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 40px;
+}
+
+
+
+.boton {
+    justify-content: center;
+    background-color: blueviolet;
+    color: #fff;
+    margin: 10px;
+    padding: 6%;
+}
